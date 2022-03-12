@@ -1,11 +1,15 @@
 .btn {
   font-size: 19px;
-  font-weight: bold;
+  font-weight: 800;
   padding: 18px 35px;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
-}
-.btn--light {
-  background: #fff;
+  text-decoration: none;
+  
+  &--light {
+    background: $yellow;
+    color: #000000;
+    
+  }
 }

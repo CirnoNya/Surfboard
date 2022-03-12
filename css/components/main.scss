@@ -18,7 +18,12 @@ $white: #FFFFFF;
 @import "./layout.scss";
 
 //components
-@import "./hero.scss";
-@import "./header.scss";
-@import "./features.scss";
-@import "./feature.scss";
+@import "./_hero.scss";
+@import "./_header.scss";
+@import "./_features.scss";
+@import "./_feature.scss";
+@import "./_btn.scss";
+@import "./section.scss";
+@import "./headline.scss";
+@import "./benefits";
+@import "./benefit";
