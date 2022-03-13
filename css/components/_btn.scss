@@ -6,10 +6,19 @@
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
   
   &--light {
     background: $yellow;
     color: #000000;
-    
+  }
+  
+  &--reset {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: none;
   }
 }

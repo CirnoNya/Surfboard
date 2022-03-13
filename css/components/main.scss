@@ -9,6 +9,11 @@ $black: #292929;
 $white: #FFFFFF;
 
 
+//z-indexes
+
+$z-fixed-menu: 100;
+
+
 //normalize
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
@@ -30,3 +35,5 @@ $white: #FFFFFF;
 @import "./reviews";
 @import "./interactive-avatar";
 @import "./_form.scss";
+@import "./radio";
+@import "./fixed-menu";
