@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: containerWidth;
+  max-width: $containerWidth;
   margin: 0 auto;
 }
 

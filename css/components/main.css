@@ -21,7 +21,7 @@ body {
   overflow: hidden; }
 
 .container {
-  width: containerWidth;
+  max-width: 940px;
   margin: 0 auto; }
 
 h1,
@@ -76,7 +76,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 44px 68px 81px; }
+  padding: 24px 0px 68px 0px; }
 
 .hero__main-title {
   font-size: 48px;
@@ -135,7 +135,8 @@ img {
 
 .feature__icon {
   width: 45px;
-  margin-right: 7px; }
+  margin-right: 7px;
+  filter: invert(100%); }
 
 .feature__text {
   font-size: 16px;
