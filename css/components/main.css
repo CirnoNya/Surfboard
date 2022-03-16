@@ -120,7 +120,8 @@ img {
 .phone-number__icon-elem {
   width: 12px;
   height: 12px;
-  display: inline-flex; }
+  display: inline-flex;
+  filter: invert(100%); }
 
 .features {
   display: flex; }
