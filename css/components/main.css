@@ -13,6 +13,13 @@ body {
   position: relative;
   color: #666666; }
 
+section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .wrapper {
   position: relative;
   width: 100%;
@@ -163,19 +170,12 @@ img {
     font-weight: normal;
     text-transform: none; }
 
-.section {
-  height: 100vh;
-  min-height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.order-section {
+.orders {
   position: relative;
   color: #fff;
   background: url("../../img/order-bg.jpeg") center center/cover no-repeat;
   z-index: 1; }
-  .order-section:before {
+  .orders:before {
     content: "";
     top: 0;
     left: 0;
@@ -185,14 +185,6 @@ img {
     height: 100%;
     opacity: 40%;
     z-index: -1; }
-
-.section__title {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff; }
 
 .headline {
   text-align: center; }
@@ -204,7 +196,7 @@ img {
   padding: 0 29%;
   margin-bottom: 49px; }
 
-.benefits {
+.benefits__list {
   display: flex; }
 
 .benefits__item {
@@ -418,5 +410,16 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; }
+  .title--headline {
+    color: #292929; }
+  .title--reviews {
+    color: #292929; }
 
 /*# sourceMappingURL=main.css.map */

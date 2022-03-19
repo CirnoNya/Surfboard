@@ -13,6 +13,14 @@ body {
   color: #666666;
 }
 
+section {
+  height: 100vh; 
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .wrapper {
   position: relative;
   width: 100%;
