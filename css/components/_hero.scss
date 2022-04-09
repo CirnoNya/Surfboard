@@ -21,7 +21,8 @@
   width: 46%;
   
   @include tablets {
-    padding-top: rem(225px);
+    padding-top: rem(150px);
+    padding: rem(150px) rem(10px) 0 rem(10px);
     width: 100%;
     flex: 1;
     display: flex;

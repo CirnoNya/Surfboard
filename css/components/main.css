@@ -94,7 +94,8 @@ img {
   width: 46%; }
   @media screen and (max-width: 768px) {
     .hero__title-section {
-      padding-top: 12.5rem;
+      padding-top: 8.3333333333rem;
+      padding: 8.3333333333rem 0.5555555556rem 0 0.5555555556rem;
       width: 100%;
       flex: 1;
       display: flex;
@@ -138,7 +139,15 @@ img {
   font-weight: 700;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 1.3888888889rem;
+  padding-bottom: 1.3888888889rem;
+  padding-left: 1.6666666667rem;
+  padding-right: 1.6666666667rem; }
+  @media screen and (max-width: 768px) {
+    .header {
+      align-items: center;
+      background: #1968B1; } }
 
 @media screen and (max-width: 768px) {
   .phone-number.header__phone-number {
@@ -228,6 +237,9 @@ img {
 .headline__subtitle {
   padding: 0 29%;
   margin-bottom: 2.7222222222rem; }
+  @media screen and (max-width: 768px) {
+    .headline__subtitle {
+      padding: 0 22%; } }
 
 .benefits__list {
   display: flex; }
@@ -280,18 +292,30 @@ img {
   background: #F8FAF9;
   padding: 2.3333333333rem 7.8888888889rem 2.3333333333rem 2.3333333333rem;
   margin-bottom: 0.8333333333rem; }
+  @media screen and (max-width: 768px) {
+    .reviews__display {
+      padding: 2.3333333333rem 1.2777777778rem 2.3333333333rem 1.3333333333rem; } }
 
 .reviews__display-inner {
   display: flex; }
+  @media screen and (max-width: 768px) {
+    .reviews__display-inner {
+      flex-direction: column;
+      text-align: center;
+      align-items: center; } }
 
 .reviews__avatar {
-  width: 14.1111111111rem;
-  height: 14.6666666667rem; }
+  width: 254px;
+  height: 264px; }
 
 .reviews__avatar-img {
   object-fit: cover;
   width: 100%;
   height: 100%; }
+  @media screen and (max-width: 768px) {
+    .reviews__avatar-img {
+      width: 0;
+      height: 0; } }
 
 .reviews__content {
   flex: 1;
@@ -304,7 +328,8 @@ img {
   color: #292929; }
 
 .reviews__text {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 0 1.3333333333rem; }
 
 .reviews__author {
   font-size: 1rem;

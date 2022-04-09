@@ -3,7 +3,15 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding-top: rem(25px);
+  padding-bottom: rem(25px);
+  padding-left: rem(30px);
+  padding-right: rem(30px);
   
+  @include tablets {
+    align-items: center;
+    background: #1968B1;
+  }
 }
 
 .phone-number.header__phone-number {
