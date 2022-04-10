@@ -4,7 +4,7 @@
   margin-bottom: rem(15px);
   
   @include tablets {
-  padding: rem(42px) rem(23px)  rem(42px) rem(24px);
+  padding: rem(42px) rem(24px)  rem(42px) rem(24px);
   }
 }
 
@@ -18,25 +18,30 @@
   }
 }
 
-.reviews__avatar {
-  width: 254px;
-  height: 264px;
+.review__avatar {
+  width: rem(254px);
+  height: rem(264px);
+  
+  @include tablets {
+    width: rem(130px);
+    height: rem(130px);
+    margin-bottom: rem(32px);
+  }
 }
 
-.reviews__avatar-img {
+.review__avatar-img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  
-  @include tablets {
-  width: 0;
-  height: 0;
-  }
 }
 
 .reviews__content {
   flex: 1;
   margin-left: rem(20px);
+  
+  @include tablets {
+  margin: 0;
+  }
 }
 
 .reviews__title {
